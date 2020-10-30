@@ -1,2 +1,2 @@
-var add = require('./add');
+var add = require('./src/add');
 console.log(add(1,2));
