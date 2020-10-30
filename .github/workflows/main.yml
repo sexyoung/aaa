@@ -3,7 +3,8 @@
 name: 建置、測試、部署
 on:
   push:
-    branches: [ $default-branch ]
+    branches:
+      - master
 
 jobs:
   build-test-deploy:
