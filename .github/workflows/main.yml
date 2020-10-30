@@ -1,13 +1,12 @@
 # https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp
 
-name: CI/CD
+name: 建置、測試、部署
 on:
   push:
     branches: [ $default-branch ]
 
 jobs:
   build-test-deploy: # 任務名
-    name: Build Test Deploy # 顯示在github actions 上的任務名
     runs-on: ubuntu-latest # 要跑的作業系統
 
     strategy:
