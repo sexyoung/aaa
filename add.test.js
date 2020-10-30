@@ -3,7 +3,7 @@ const { expect } = require('@jest/globals');
 var add = require('./add');
 
 describe('add', () => {
-  test('should add 1+2 = 3', () => {
-    expect(add(1,2)).toBe(3);
+  test('should add 1+2 = 4', () => {
+    expect(add(1,2)).toBe(4);
   })
 })
